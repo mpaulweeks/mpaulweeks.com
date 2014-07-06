@@ -1,0 +1,34 @@
+body {
+    background-color: #eeeeee;
+    font-family: "courier", Helvetica, Arial, sans-serif;
+}
+
+.centered {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fourhead {
+    width: 100%;
+    height: 50px;
+}
+
+.description   {
+    font-size: 20px;
+    width: 100%;
+}
+
+.links   {
+    font-family: courier;
+    font-size: 12px;
+    width: 100%;
+}
+
+.name {
+    font-family: courier;
+    font-size: 40px;
+
+}
