@@ -4,6 +4,7 @@ body {
     height: 100%;
     width: 100%;
     text-align: center;
+    color: #444444;
 }
 
 div {
@@ -16,17 +17,43 @@ div {
 }
 
 .photo {
-	border: 3px solid #fafafa;
+    border: 3px solid #fafafa;
+    width: 400px;
+}
+.block {
+    display:inline-block;
+    vertical-align: middle;
+    margin:5px 5px;
+    padding:5px;
+}
+.links   {
+    font-size: 20px;
+    width: 100px;
+}
+a {
+    color: #444444;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.left {
+    text-align: right;
+}
+.right {
+    text-align: left;
+}
+.name {
+    font-size: 40px;
 }
 
-.links   {
+.game-links {
     font-size: 20px;
     width: 300px;
     border: 3px solid black;
     background-color: #fafafa;
     line-height: 150%;
 }
-
-.name {
-    font-size: 40px;
+.game-footnote {
+    font-size: 14px;
 }
