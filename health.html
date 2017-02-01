@@ -30,16 +30,8 @@
 
   <div class="spacer"></div>
 
-  <div class="block links left">
-    <p> cat-herder </p>
-    <p> commander-league </p>
-    <p> sfv.fightinggame.community </p>
-  </div>
-  <div class="block links right">
-    <p id="cat-herder"></p>
-    <p id="commander-league"></p>
-    <p id="sfv-demo"></p>
-  </div>
+  <div class="block links left" id="names"></div>
+  <div class="block links right" id="results"></div>
 
 <script type="text/javascript">
 $(document).ready(function () {
@@ -66,7 +58,8 @@ $(document).ready(function () {
     }
 
     function check_service(service){
-      $('#' + service.tag).html("checking...");
+      $('#names').append('<p>' + service.name + '</p>');
+      $('#results').append('<p id="' + service.tag + '">checking...</p>');
         service.endpoints.forEach(function (endpoint){
             $.ajax({
                 url: endpoint.url,
@@ -94,20 +87,23 @@ $(document).ready(function () {
     var services = [
         {
             tag: 'cat-herder',
+            name: 'cat herder',
             endpoints: [
                 create_endpoint('http://cat-herder.mpaulweeks.com')
             ]
         },
         {
             tag: 'commander-league',
+            name: 'commander league',
             endpoints: [
                 create_endpoint('http://edh.mpaulweeks.com')
             ]
         },
         {
-            tag: 'sfv-demo',
+            tag: 'type4stack',
+            name: 'type4stack',
             endpoints: [
-                create_endpoint('http://sfv.fightinggame.community/admin/status/web')
+                create_endpoint('http://type4.mpaulweeks.com/')
             ]
         },
     ];
