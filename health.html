@@ -1,0 +1,122 @@
+<html>
+<head>
+  <title>M. Paul Weeks - Health</title>
+  <link rel="shortcut icon" href="clay.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37989728-1']);
+    _gaq.push(['_setDomainName', 'mpaulweeks.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+  <div class="spacer"></div>
+
+  <div class="name">
+    Health Check
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="block links left">
+    <p> cat-herder </p>
+    <p> commander-league </p>
+    <p> sfv.fightinggame.community </p>
+  </div>
+  <div class="block links right">
+    <p id="cat-herder"></p>
+    <p id="commander-league"></p>
+    <p id="sfv-demo"></p>
+  </div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    function refresh_info(service){
+        var details = "";
+        var is_up = true;
+        var is_done = true;
+        service.endpoints.forEach(function (endpoint){
+            if (endpoint.is_up == null){
+                is_done = false;
+            } else {
+                is_up = is_up && endpoint.is_up;
+                details += '<br/>' + endpoint.url + '<br/>' + endpoint.message + '<br/>';
+            }
+        });
+        if (is_done){
+            if (window.location.href.includes("details")){
+                $('#details').append(details);
+            }
+            var result = is_up ? 'OK' : 'DOWN';
+            $('#' + service.tag).html(result);
+        }
+    }
+
+    function check_service(service){
+      $('#' + service.tag).html("checking...");
+        service.endpoints.forEach(function (endpoint){
+            $.ajax({
+                url: endpoint.url,
+                type: 'GET',
+            }).success(function (data){
+                endpoint.is_up = true;
+                endpoint.message = data;
+                refresh_info(service);
+            }).fail(function (data){
+                endpoint.is_up = false;
+                endpoint.message = data;
+                refresh_info(service);
+            });
+        });
+    }
+
+    function create_endpoint(url){
+        return {
+            url: url,
+            is_up: null,
+            message: ''
+        }
+    }
+
+    var services = [
+        {
+            tag: 'cat-herder',
+            endpoints: [
+                create_endpoint('http://cat-herder.mpaulweeks.com')
+            ]
+        },
+        {
+            tag: 'commander-league',
+            endpoints: [
+                create_endpoint('http://edh.mpaulweeks.com')
+            ]
+        },
+        {
+            tag: 'sfv-demo',
+            endpoints: [
+                create_endpoint('http://sfv.fightinggame.community/admin/status/web')
+            ]
+        },
+    ];
+
+    services.forEach(function (service){
+        check_service(service);
+    });
+});
+</script>
+</body>
+</html>
+
