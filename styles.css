@@ -22,11 +22,16 @@ div {
     vertical-align: middle;
     margin:5px 5px;
     padding:5px;
-    width: 300px;
+    width: 50px;
 }
 .photo {
     border: 3px solid #fafafa;
     width: 200px;
+}
+@media (max-width: 320px) {
+    .photo {
+        width: 100px;
+    }
 }
 .photo-container {
     width: auto;
