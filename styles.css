@@ -28,7 +28,7 @@ div {
     border: 3px solid #fafafa;
     width: 200px;
 }
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .photo {
         width: 100px;
     }
