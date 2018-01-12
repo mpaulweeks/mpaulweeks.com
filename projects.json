@@ -1,6 +1,6 @@
 {
   "primary": {
-    "name": "Primary Projects",
+    "name": "Projects",
     "projects": [
       {
         "url": "http://vibe.mpaulweeks.com",
@@ -8,6 +8,20 @@
         "name": "VIBE",
         "description": "Customizable rainbow visualizer",
         "date": "September 2017"
+      },
+      {
+        "url": "http://animefight.club",
+        "image": "http://animefight.club/image/mako.png",
+        "name": "Anime Fight Club",
+        "description": "Randomized fight scenes from hundreds of anime",
+        "date": "April 2017"
+      },
+      {
+        "url": "http://sfv.fgc.mpaulweeks.com",
+        "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
+        "name": "Fighting Game Community",
+        "description": "Stat tracker for Street Fighter V",
+        "date": "Summer 2016"
       }
     ]
   },
