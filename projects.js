@@ -30,9 +30,13 @@ function projectCategoryHTML(category){
   `;
 }
 
+function getTimestamp(){
+  return Math.floor((new Date()).getTime() / (60 * 1000));
+}
+
 function displayProjects(projectData){
   const elm = document.getElementById('projects');
   elm.innerHTML += projectCategoryHTML(projectData.primary);
   elm.innerHTML += projectCategoryHTML(projectData.small);
 }
-fetch('projects.json').then(r => r.json()).then(displayProjects);
+fetch(`projects.json?v=${getTimestamp()}`).then(r => r.json()).then(displayProjects);
