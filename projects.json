@@ -29,6 +29,13 @@
     "name": "Small Projects",
     "projects": [
       {
+        "url": "http://vibe.mpaulweeks.com/gravity",
+        "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
+        "name": "GRAVITY",
+        "description": "Interactive spin-off of VIBE",
+        "date": "September 2017"
+      },
+      {
         "url": "https://mpaulweeks.github.io/tribox/",
         "image": "preview/tribox.png",
         "name": "TriBox",
