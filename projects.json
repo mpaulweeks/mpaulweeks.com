@@ -1,32 +1,68 @@
-[
-  {
-    "url": "http://vibe.mpaulweeks.com",
-    "name": "VIBE",
-    "description": "Customizable rainbow visualizer",
-    "date": "Summer 2017"
+{
+  "primary": {
+    "name": "Primary Projects",
+    "projects": [
+      {
+        "url": "http://vibe.mpaulweeks.com",
+        "image": "http://vibe.mpaulweeks.com/preview.png",
+        "name": "VIBE",
+        "description": "Customizable rainbow visualizer",
+        "date": "September 2017"
+      }
+    ]
   },
-  {
-    "url": "https://mpaulweeks.github.io/twentytwo",
-    "name": "Twenty Two",
-    "description": "Simple card game with local play and perfect AI",
-    "date": "July 2015"
-  },
-  {
-    "url": "https://mpaulweeks.github.io/sushi-go/",
-    "name": "Sushi Go Sim",
-    "description": "Strategy simulator for popular card game",
-    "date": "August 2016"
-  },
-  {
-    "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
-    "name": "Tic-Tac-Toe Teacher",
-    "description": "Program the AI for Tic-Tac-Toe and then play against it",
-    "date": "July 2016"
-  },
-  {
-    "url": "https://mpaulweeks.github.io/tribox/",
-    "name": "TriBox",
-    "description": "Prototype of fast-paced, local cooperative game",
-    "date": "November 2016"
+  "small": {
+    "name": "Small Projects",
+    "projects": [
+      {
+        "url": "https://mpaulweeks.github.io/tribox/",
+        "image": "preview/tribox.png",
+        "name": "TriBox",
+        "description": "Prototype of fast-paced, local cooperative game",
+        "date": "November 2016"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/sushi-go/",
+        "image": "preview/sushigo.png",
+        "name": "Sushi Go Sim",
+        "description": "Strategy simulator for popular card game",
+        "date": "August 2016"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
+        "image": "preview/tictactoeteacher.png",
+        "name": "Tic-Tac-Toe Teacher",
+        "description": "Program the AI for Tic-Tac-Toe and then play against it",
+        "date": "July 2016"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/twentytwo",
+        "image": "preview/twentytwo.png",
+        "name": "Twenty Two",
+        "description": "Simple card game with local play and perfect AI",
+        "date": "July 2015"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/achi",
+        "image": "preview/achi.png",
+        "name": "Achi",
+        "description": "Tic-Tac-Toe variant with sliding stones",
+        "date": "January 2015"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/TicTacToeTwist",
+        "image": "preview/tictactoetwist.png",
+        "name": "Tic-Tac-Toe-Twist",
+        "description": "Tic-Tac-Toe variant with disappearing pieces",
+        "date": "January 2013"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/lifesim",
+        "image": "preview/lifesim2.png",
+        "name": "LifeSim",
+        "description": "Conway's Game of Life simulator",
+        "date": "May 2012"
+      }
+    ]
   }
-]
+}

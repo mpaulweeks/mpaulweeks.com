@@ -2,7 +2,7 @@
 function projectHTML(project){
   return `
     <div class="project-container"><a href="${project.url}">
-      <img class="project-preview" src="${project.url}/preview.png" />
+      <img class="project-preview" src="${project.image}" />
       <div class="project-name">
         ${project.name}
       </div>
@@ -16,10 +16,23 @@ function projectHTML(project){
   `;
 }
 
-function displayProjects(projects){
+function projectCategoryHTML(category){
+  const html = category.projects.reduce((a, c) => a + projectHTML(c), '');
+  return `
+    <div>
+      <div class="project-category-title">
+        ${category.name}
+      </div>
+      <div class="project-category">
+        ${html}
+      </div>
+    </div>
+  `;
+}
+
+function displayProjects(projectData){
   const elm = document.getElementById('projects');
-  projects.forEach(p => {
-    elm.innerHTML += projectHTML(p);
-  });
+  elm.innerHTML += projectCategoryHTML(projectData.primary);
+  elm.innerHTML += projectCategoryHTML(projectData.small);
 }
 fetch('projects.json').then(r => r.json()).then(displayProjects);
