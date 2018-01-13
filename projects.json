@@ -1,187 +1,302 @@
-{
-  "primary": {
-    "name": "Projects",
-    "projects": [
-      {
-        "url": "http://vibe.mpaulweeks.com",
-        "image": "http://vibe.mpaulweeks.com/preview.png",
-        "name": "VIBE",
-        "description": "customizable rainbow visualizer",
-        "date": "September 2017"
-      },
-      {
-        "url": "http://animefight.club",
-        "image": "http://animefight.club/image/mako.png",
-        "name": "Anime Fight Club",
-        "description": "randomized fight scenes from hundreds of anime",
-        "date": "April 2017"
-      },
-      {
-        "url": "http://sfv.fgc.mpaulweeks.com",
-        "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
-        "name": "Fighting Game Community",
-        "description": "stat tracker for Street Fighter V",
-        "date": "Summer 2016"
-      }
-    ]
+[
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": true,
+    "hidden": false,
+    "url": "https://github.com/mpaulweeks/changepurse",
+    "image": "preview/BTC.png",
+    "name": "Change Purse",
+    "description": "static site for checking crypto",
+    "date_pretty": "January 2018",
+    "date": "201801"
   },
-  "small": {
-    "name": "Small Projects",
-    "projects": [
-      {
-        "url": "https://github.com/mpaulweeks/changepurse",
-        "image": "preview/BTC.png",
-        "name": "Change Purse",
-        "description": "static site for checking crypto",
-        "date": "January 2018"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/chordial",
-        "image": "preview/music_keyboard.png",
-        "name": "Chordial",
-        "description": "play chords in a browser",
-        "date": "November 2017"
-      },
-      {
-        "url": "http://vibe.mpaulweeks.com/gravity",
-        "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
-        "name": "GRAVITY",
-        "description": "interactive spin-off of VIBE",
-        "date": "September 2017"
-      },
-      {
-        "url": "http://8bit.mpaulweeks.com",
-        "image": "http://8bit.mpaulweeks.com/favicon.png",
-        "name": "Arcade Rank",
-        "description": "twitter scraper PoC",
-        "date": "September 2017"
-      },
-      {
-        "url": "https://github.com/mpaulweeks/postboard",
-        "image": "preview/github.svg",
-        "name": "Postboard",
-        "description": "simple CRUD server for teaching API usage",
-        "date": "August 2017"
-      },
-      {
-        "url": "http://edh-obscurity.mpaulweeks.com",
-        "image": "http://edh-obscurity.mpaulweeks.com/edh.png",
-        "name": "EDH Obscurity Index",
-        "description": "online stats calculator",
-        "date": "June 2017"
-      },
-      {
-        "url": "http://mtg-quiz.mpaulweeks.com",
-        "image": "http://mtg-quiz.mpaulweeks.com/symbol/X.svg",
-        "name": "MTG Quiz",
-        "description": "React PoC with MTG trivia",
-        "date": "April 2017"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/rainbowify",
-        "image": "https://mpaulweeks.github.io/rainbowify/clay_rainbow.gif",
-        "name": "Rainbowify",
-        "description": "online tool to create rainbow GIFs",
-        "date": "March 2017"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/tribox/",
-        "image": "preview/tribox.png",
-        "name": "TriBox",
-        "description": "prototype of fast-paced, local cooperative game",
-        "date": "November 2016"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/sushi-go/",
-        "image": "preview/sushigo.png",
-        "name": "Sushi Go Sim",
-        "description": "strategy simulator for existing game",
-        "date": "August 2016"
-      },
-      {
-        "url": "http://cat-herder.mpaulweeks.com",
-        "image": "http://cat-herder.mpaulweeks.com/static/favicon.png",
-        "name": "Cat-Herder",
-        "description": "scheduling tool for weekly events",
-        "date": "August 2016"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
-        "image": "preview/tictactoeteacher.png",
-        "name": "Tic-Tac-Toe Teacher",
-        "description": "program the AI for Tic-Tac-Toe and then play against it",
-        "date": "July 2016"
-      },
-      {
-        "url": "http://video.fgc.mpaulweeks.com",
-        "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
-        "name": "FGC Matchup Videos",
-        "description": "scraped fighting game videos from YouTube and categorized by matchup",
-        "date": "July 2016"
-      },
-      {
-        "url": "http://edh.mpaulweeks.com",
-        "image": "http://edh.mpaulweeks.com/img/mana-symbol-ur.png",
-        "name": "Commander League",
-        "description": "tracked decklists and budgets for local game league",
-        "date": "January 2016"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/twentytwo",
-        "image": "preview/twentytwo.png",
-        "name": "Twenty Two",
-        "description": "simple card game with local play and perfect AI",
-        "date": "July 2015"
-      },
-      {
-        "url": "http://polman.mpaulweeks.com",
-        "image": "http://polman.mpaulweeks.com/img/pol_left.png",
-        "name": "PolMan",
-        "description": "Pac-Man with JoJo characters",
-        "date": "February 2015"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/achi",
-        "image": "preview/achi.png",
-        "name": "Achi",
-        "description": "classic game from Ghana",
-        "date": "January 2015"
-      },
-      {
-        "url": "http://rero.mpaulweeks.com",
-        "image": "http://rero.mpaulweeks.com/cherry.png",
-        "name": "rero",
-        "description": "audio/visual joke page",
-        "date": "July 2014"
-      },
-      {
-        "url": "http://catoi.mpaulweeks.com",
-        "image": "http://catoi.mpaulweeks.com/favicon.png",
-        "name": "Catoi",
-        "description": "audio/visual joke page",
-        "date": "February 2014"
-      },
-      {
-        "url": "http://catsuki.mpaulweeks.com",
-        "image": "http://catsuki.mpaulweeks.com/favicon.png",
-        "name": "Catsuki",
-        "description": "audio/visual joke page",
-        "date": "February 2014"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/TicTacToeTwist",
-        "image": "preview/tictactoetwist.png",
-        "name": "Tic-Tac-Toe Twist",
-        "description": "Tic-Tac-Toe variant with disappearing pieces",
-        "date": "January 2013"
-      },
-      {
-        "url": "https://mpaulweeks.github.io/lifesim",
-        "image": "preview/lifesim2.png",
-        "name": "LifeSim",
-        "description": "Conway's Game of Life simulator",
-        "date": "May 2012"
-      }
-    ]
+  {
+    "category": "art",
+    "scale": "small",
+    "wip": true,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/chordial",
+    "image": "preview/music_keyboard.png",
+    "name": "Chordial",
+    "description": "play chords in a browser",
+    "date_pretty": "November 2017",
+    "date": "201711"
+  },
+  {
+    "category": "art",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://vibe.mpaulweeks.com/gravity",
+    "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
+    "name": "GRAVITY",
+    "description": "interactive spin-off of VIBE",
+    "date_pretty": "September 2017",
+    "date": "201709-03"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://8bit.mpaulweeks.com",
+    "image": "http://8bit.mpaulweeks.com/favicon.png",
+    "name": "Arcade Rank",
+    "description": "\"serverless\" twitter scraper PoC",
+    "date_pretty": "September 2017",
+    "date": "201709-02"
+  },
+  {
+    "category": "art",
+    "scale": "large",
+    "wip": false,
+    "hidden": false,
+    "url": "http://vibe.mpaulweeks.com",
+    "image": "http://vibe.mpaulweeks.com/preview.png",
+    "name": "VIBE",
+    "description": "customizable rainbow visualizer",
+    "date_pretty": "September 2017",
+    "date": "201709-01"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://github.com/mpaulweeks/postboard",
+    "image": "preview/github.svg",
+    "name": "Postboard",
+    "description": "simple CRUD server as teaching tool for API consumption",
+    "date_pretty": "August 2017",
+    "date": "201708"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://edh-obscurity.mpaulweeks.com",
+    "image": "http://edh-obscurity.mpaulweeks.com/edh.png",
+    "name": "EDH Obscurity Index",
+    "description": "online stats calculator",
+    "date_pretty": "June 2017",
+    "date": "201706"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://mtg-quiz.mpaulweeks.com",
+    "image": "http://mtg-quiz.mpaulweeks.com/symbol/X.svg",
+    "name": "MTG Quiz",
+    "description": "React PoC with MTG trivia",
+    "date_pretty": "April 2017",
+    "date": "201704"
+  },
+  {
+    "category": "art",
+    "scale": "large",
+    "wip": false,
+    "hidden": false,
+    "url": "http://animefight.club",
+    "image": "http://animefight.club/image/mako.png",
+    "name": "Anime Fight Club",
+    "description": "randomized fight scenes from hundreds of anime",
+    "date_pretty": "April 2017",
+    "date": "201704"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/rainbowify",
+    "image": "https://mpaulweeks.github.io/rainbowify/clay_rainbow.gif",
+    "name": "Rainbowify",
+    "description": "online tool to create rainbow GIFs",
+    "date_pretty": "March 2017",
+    "date": "201703"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/tribox/",
+    "image": "preview/tribox.png",
+    "name": "TriBox",
+    "description": "prototype of fast-paced, local cooperative game",
+    "date_pretty": "November 2016",
+    "date": "201611"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/sushi-go/",
+    "image": "preview/sushigo.png",
+    "name": "Sushi Go Sim",
+    "description": "strategy simulator for existing game",
+    "date_pretty": "August 2016",
+    "date": "201608"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": true,
+    "url": "http://cat-herder.mpaulweeks.com",
+    "image": "http://cat-herder.mpaulweeks.com/static/favicon.png",
+    "name": "Cat-Herder",
+    "description": "scheduling tool for weekly events",
+    "date_pretty": "August 2016",
+    "date": "201608"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
+    "image": "preview/tictactoeteacher.png",
+    "name": "Tic-Tac-Toe Teacher",
+    "description": "program the AI for Tic-Tac-Toe and then play against it",
+    "date_pretty": "July 2016",
+    "date": "201607"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://video.fgc.mpaulweeks.com",
+    "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
+    "name": "FGC Matchup Videos",
+    "description": "scraped fighting game videos from YouTube and categorized by matchup",
+    "date_pretty": "July 2016",
+    "date": "201607"
+  },
+  {
+    "category": "tool",
+    "scale": "large",
+    "wip": false,
+    "hidden": false,
+    "url": "http://sfv.fgc.mpaulweeks.com",
+    "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
+    "name": "Fighting Game Community",
+    "description": "stat tracker for Street Fighter V",
+    "date_pretty": "Summer 2016",
+    "date": "201605"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://edh.mpaulweeks.com",
+    "image": "http://edh.mpaulweeks.com/img/mana-symbol-ur.png",
+    "name": "Commander League",
+    "description": "tracked decklists and budgets for local game league",
+    "date_pretty": "January 2016",
+    "date": "201601"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/twentytwo",
+    "image": "preview/twentytwo.png",
+    "name": "Twenty Two",
+    "description": "simple card game with local play and perfect AI",
+    "date_pretty": "July 2015",
+    "date": "201507"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://polman.mpaulweeks.com",
+    "image": "http://polman.mpaulweeks.com/img/pol_left.png",
+    "name": "PolMan",
+    "description": "Pac-Man with JoJo characters",
+    "date_pretty": "February 2015",
+    "date": "201502"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/achi",
+    "image": "preview/achi.png",
+    "name": "Achi",
+    "description": "classic game from Ghana",
+    "date_pretty": "January 2015",
+    "date": "201501"
+  },
+  {
+    "category": "art",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://rero.mpaulweeks.com",
+    "image": "http://rero.mpaulweeks.com/cherry.png",
+    "name": "rero",
+    "description": "audio/visual joke page",
+    "date_pretty": "July 2014",
+    "date": "201407"
+  },
+  {
+    "category": "art",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://catoi.mpaulweeks.com",
+    "image": "http://catoi.mpaulweeks.com/favicon.png",
+    "name": "Catoi",
+    "description": "audio/visual joke page",
+    "date_pretty": "February 2014",
+    "date": "201402"
+  },
+  {
+    "category": "art",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "http://catsuki.mpaulweeks.com",
+    "image": "http://catsuki.mpaulweeks.com/favicon.png",
+    "name": "Catsuki",
+    "description": "audio/visual joke page",
+    "date_pretty": "February 2014",
+    "date": "201402"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/TicTacToeTwist",
+    "image": "preview/tictactoetwist.png",
+    "name": "Tic-Tac-Toe Twist",
+    "description": "Tic-Tac-Toe variant with disappearing pieces",
+    "date_pretty": "January 2013",
+    "date": "201301"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/lifesim",
+    "image": "preview/lifesim2.png",
+    "name": "LifeSim",
+    "description": "Conway's Game of Life simulator",
+    "date_pretty": "May 2012",
+    "date": "201205"
   }
-}
+]
