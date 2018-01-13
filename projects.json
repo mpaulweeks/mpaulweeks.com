@@ -17,13 +17,6 @@
         "date": "April 2017"
       },
       {
-        "url": "http://cat-herder.mpaulweeks.com",
-        "image": null,
-        "name": "Cat-Herder",
-        "description": "personal scheduling tool for weekly events",
-        "date": "August 2016"
-      },
-      {
         "url": "http://sfv.fgc.mpaulweeks.com",
         "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
         "name": "Fighting Game Community",
@@ -43,6 +36,13 @@
         "date": "January 2018"
       },
       {
+        "url": "https://mpaulweeks.github.io/chordial",
+        "image": "preview/github.svg",
+        "name": "Chordial",
+        "description": "play chords in a browser",
+        "date": "November 2017"
+      },
+      {
         "url": "http://vibe.mpaulweeks.com/gravity",
         "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
         "name": "GRAVITY",
@@ -50,15 +50,36 @@
         "date": "September 2017"
       },
       {
+        "url": "http://8bit.mpaulweeks.com",
+        "image": "http://8bit.mpaulweeks.com/favicon.png",
+        "name": "Arcade Rank",
+        "description": "twitter scraper PoC",
+        "date": "September 2017"
+      },
+      {
         "url": "https://github.com/mpaulweeks/postboard",
-        "image": null,
+        "image": "preview/github.svg",
         "name": "Postboard",
         "description": "simple CRUD server for teaching API usage",
         "date": "August 2017"
       },
       {
+        "url": "http://edh-obscurity.mpaulweeks.com",
+        "image": "http://edh-obscurity.mpaulweeks.com/edh.png",
+        "name": "EDH Obscurity Index",
+        "description": "online stats calculator",
+        "date": "June 2017"
+      },
+      {
+        "url": "http://mtg-quiz.mpaulweeks.com",
+        "image": "http://mtg-quiz.mpaulweeks.com/symbol/X.svg",
+        "name": "MTG Quiz",
+        "description": "React PoC with MTG trivia",
+        "date": "April 2017"
+      },
+      {
         "url": "https://mpaulweeks.github.io/rainbowify",
-        "image": "https://mpaulweeks.github.io/rainbowify/clay.jpg",
+        "image": "https://mpaulweeks.github.io/rainbowify/clay_rainbow.gif",
         "name": "Rainbowify",
         "description": "online tool to create rainbow GIFs",
         "date": "March 2017"
@@ -78,6 +99,13 @@
         "date": "August 2016"
       },
       {
+        "url": "http://cat-herder.mpaulweeks.com",
+        "image": "http://cat-herder.mpaulweeks.com/static/favicon.png",
+        "name": "Cat-Herder",
+        "description": "scheduling tool for weekly events",
+        "date": "August 2016"
+      },
+      {
         "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
         "image": "preview/tictactoeteacher.png",
         "name": "Tic-Tac-Toe Teacher",
@@ -90,6 +118,13 @@
         "name": "FGC Matchup Videos",
         "description": "scraped fighting game videos from YouTube and categorized by matchup",
         "date": "July 2016"
+      },
+      {
+        "url": "http://edh.mpaulweeks.com",
+        "image": "http://edh.mpaulweeks.com/img/mana-symbol-ur.png",
+        "name": "Commander League",
+        "description": "tracked decklists and budgets for local game league",
+        "date": "January 2016"
       },
       {
         "url": "https://mpaulweeks.github.io/twentytwo",
