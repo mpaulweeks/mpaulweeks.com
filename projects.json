@@ -6,21 +6,28 @@
         "url": "http://vibe.mpaulweeks.com",
         "image": "http://vibe.mpaulweeks.com/preview.png",
         "name": "VIBE",
-        "description": "Customizable rainbow visualizer",
+        "description": "customizable rainbow visualizer",
         "date": "September 2017"
       },
       {
         "url": "http://animefight.club",
         "image": "http://animefight.club/image/mako.png",
         "name": "Anime Fight Club",
-        "description": "Randomized fight scenes from hundreds of anime",
+        "description": "randomized fight scenes from hundreds of anime",
         "date": "April 2017"
+      },
+      {
+        "url": "http://cat-herder.mpaulweeks.com",
+        "image": null,
+        "name": "Cat-Herder",
+        "description": "personal scheduling tool for weekly events",
+        "date": "August 2016"
       },
       {
         "url": "http://sfv.fgc.mpaulweeks.com",
         "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
         "name": "Fighting Game Community",
-        "description": "Stat tracker for Street Fighter V",
+        "description": "stat tracker for Street Fighter V",
         "date": "Summer 2016"
       }
     ]
@@ -29,46 +36,102 @@
     "name": "Small Projects",
     "projects": [
       {
+        "url": "https://github.com/mpaulweeks/changepurse",
+        "image": "preview/BTC.png",
+        "name": "Change Purse",
+        "description": "static site for checking crypto",
+        "date": "January 2018"
+      },
+      {
         "url": "http://vibe.mpaulweeks.com/gravity",
         "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
         "name": "GRAVITY",
-        "description": "Interactive spin-off of VIBE",
+        "description": "interactive spin-off of VIBE",
         "date": "September 2017"
+      },
+      {
+        "url": "https://github.com/mpaulweeks/postboard",
+        "image": null,
+        "name": "Postboard",
+        "description": "simple CRUD server for teaching API usage",
+        "date": "August 2017"
+      },
+      {
+        "url": "https://mpaulweeks.github.io/rainbowify",
+        "image": "https://mpaulweeks.github.io/rainbowify/clay.jpg",
+        "name": "Rainbowify",
+        "description": "online tool to create rainbow GIFs",
+        "date": "March 2017"
       },
       {
         "url": "https://mpaulweeks.github.io/tribox/",
         "image": "preview/tribox.png",
         "name": "TriBox",
-        "description": "Prototype of fast-paced, local cooperative game",
+        "description": "prototype of fast-paced, local cooperative game",
         "date": "November 2016"
       },
       {
         "url": "https://mpaulweeks.github.io/sushi-go/",
         "image": "preview/sushigo.png",
         "name": "Sushi Go Sim",
-        "description": "Strategy simulator for existing game",
+        "description": "strategy simulator for existing game",
         "date": "August 2016"
       },
       {
         "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
         "image": "preview/tictactoeteacher.png",
         "name": "Tic-Tac-Toe Teacher",
-        "description": "Program the AI for Tic-Tac-Toe and then play against it",
+        "description": "program the AI for Tic-Tac-Toe and then play against it",
+        "date": "July 2016"
+      },
+      {
+        "url": "http://video.fgc.mpaulweeks.com",
+        "image": "http://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
+        "name": "FGC Matchup Videos",
+        "description": "scraped fighting game videos from YouTube and categorized by matchup",
         "date": "July 2016"
       },
       {
         "url": "https://mpaulweeks.github.io/twentytwo",
         "image": "preview/twentytwo.png",
         "name": "Twenty Two",
-        "description": "Simple card game with local play and perfect AI",
+        "description": "simple card game with local play and perfect AI",
         "date": "July 2015"
+      },
+      {
+        "url": "http://polman.mpaulweeks.com",
+        "image": "http://polman.mpaulweeks.com/img/pol_left.png",
+        "name": "PolMan",
+        "description": "Pac-Man with JoJo characters",
+        "date": "February 2015"
       },
       {
         "url": "https://mpaulweeks.github.io/achi",
         "image": "preview/achi.png",
         "name": "Achi",
-        "description": "Classic game from Ghana",
+        "description": "classic game from Ghana",
         "date": "January 2015"
+      },
+      {
+        "url": "http://rero.mpaulweeks.com",
+        "image": "http://rero.mpaulweeks.com/cherry.png",
+        "name": "rero",
+        "description": "audio/visual joke page",
+        "date": "July 2014"
+      },
+      {
+        "url": "http://catoi.mpaulweeks.com",
+        "image": "http://catoi.mpaulweeks.com/favicon.png",
+        "name": "Catoi",
+        "description": "audio/visual joke page",
+        "date": "February 2014"
+      },
+      {
+        "url": "http://catsuki.mpaulweeks.com",
+        "image": "http://catsuki.mpaulweeks.com/favicon.png",
+        "name": "Catsuki",
+        "description": "audio/visual joke page",
+        "date": "February 2014"
       },
       {
         "url": "https://mpaulweeks.github.io/TicTacToeTwist",

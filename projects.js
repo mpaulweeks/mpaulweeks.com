@@ -2,7 +2,7 @@
 function projectHTML(project){
   return `
     <div class="project-container"><a href="${project.url}">
-      <img class="project-preview" src="${project.image}" />
+      <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
       <div class="project-name">
         ${project.name}
       </div>
