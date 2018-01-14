@@ -1,18 +1,18 @@
 
 function projectHTML(project){
   return `
-    <div class="project-container"><a href="${project.url}">
+    <div class="project-container">
       <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
-      <div class="project-name">
+      <a href="${project.url}"><div class="project-name">
         ${project.name}
-      </div>
+      </div></a>
       <div class="project-description">
         ${project.description}
       </div>
       <div class="project-date">
         ${project.date_pretty}
       </div>
-    </a></div>
+    </div>
   `;
 }
 

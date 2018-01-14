@@ -91,7 +91,7 @@
     "url": "http://mtg-quiz.mpaulweeks.com",
     "image": "http://mtg-quiz.mpaulweeks.com/symbol/X.svg",
     "name": "MTG Quiz",
-    "description": "React PoC with MTG trivia",
+    "description": "ReactJS with MTG trivia",
     "date_pretty": "April 2017",
     "date": "201704"
   },
@@ -139,7 +139,7 @@
     "url": "https://mpaulweeks.github.io/sushi-go/",
     "image": "preview/sushigo.png",
     "name": "Sushi Go Sim",
-    "description": "strategy simulator for existing game",
+    "description": "strategy simulator for <a href=\"https://gamewright.com/product/Sushi-Go\">Sushi Go</a>",
     "date_pretty": "August 2016",
     "date": "201608"
   },
@@ -195,7 +195,7 @@
     "category": "tool",
     "scale": "small",
     "wip": false,
-    "hidden": false,
+    "hidden": true,
     "url": "http://edh.mpaulweeks.com",
     "image": "http://edh.mpaulweeks.com/img/mana-symbol-ur.png",
     "name": "Commander League",

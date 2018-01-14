@@ -94,6 +94,10 @@ a:hover {
     font-size: 12pt;
     font-weight: normal;
 }
+.project-description a {
+    color: blue;
+    text-decoration: underline;
+}
 .project-date {
     font-size: 12pt;
     font-weight: normal;
