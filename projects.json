@@ -5,7 +5,7 @@
     "wip": true,
     "hidden": false,
     "url": "https://github.com/mpaulweeks/changepurse",
-    "image": "preview/BTC.png",
+    "image": "https://mpaulweeks.github.io/changepurse/favicon.png",
     "name": "Change Purse",
     "description": "static site for checking crypto",
     "date_pretty": "January 2018",
