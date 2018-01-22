@@ -7,7 +7,7 @@ function projectHTML(project){
         ${project.name}
       </div></a>
       <div class="project-description">
-        ${project.description}
+        ${project.description.replace('\n', '<br/>')}
       </div>
       <div class="project-date">
         ${project.date_pretty}

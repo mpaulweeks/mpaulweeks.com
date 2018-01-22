@@ -7,7 +7,7 @@
     "url": "https://github.com/mpaulweeks/changepurse",
     "image": "https://mpaulweeks.github.io/changepurse/img/favicon.png",
     "name": "Change Purse",
-    "description": "static site for checking crypto",
+    "description": "static site for checking crypto\nwritten in AngularJS",
     "date_pretty": "January 2018",
     "date": "201801"
   },
@@ -43,7 +43,7 @@
     "url": "http://8bit.mpaulweeks.com",
     "image": "http://8bit.mpaulweeks.com/favicon.png",
     "name": "Arcade Rank",
-    "description": "\"serverless\" twitter scraper PoC",
+    "description": "track win/lose records via twitter\n\"serverless\" scraper PoC",
     "date_pretty": "September 2017",
     "date": "201709-02"
   },
@@ -79,7 +79,7 @@
     "url": "http://edh-obscurity.mpaulweeks.com",
     "image": "http://edh-obscurity.mpaulweeks.com/edh.png",
     "name": "EDH Obscurity Index",
-    "description": "online stats calculator",
+    "description": "online stats calculator\nusing daily scraped data",
     "date_pretty": "June 2017",
     "date": "201706"
   },
@@ -91,7 +91,7 @@
     "url": "http://mtg-quiz.mpaulweeks.com",
     "image": "http://mtg-quiz.mpaulweeks.com/symbol/X.svg",
     "name": "MTG Quiz",
-    "description": "ReactJS with MTG trivia",
+    "description": "Magic: the Gathering quiz site\nwritten in React",
     "date_pretty": "April 2017",
     "date": "201704"
   },
