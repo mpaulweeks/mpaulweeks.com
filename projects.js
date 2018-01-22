@@ -99,6 +99,7 @@ function displayProjects(projectData){
   const categories = binByScale(projects);
 
   const elm = document.getElementById('projects');
+  elm.innerHTML = '';
   categories.forEach(category => {
     elm.innerHTML += projectCategoryHTML(category);
   });

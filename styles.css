@@ -58,6 +58,62 @@ a:hover {
     }
 }
 
+@keyframes ellipsis1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes ellipsis2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes ellipsis3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.loading {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+.loading1 {
+    animation-name: ellipsis1;
+}
+.loading2 {
+    animation-name: ellipsis2;
+}
+.loading3 {
+    animation-name: ellipsis3;
+}
 
 .project-category-title {
     font-size: 18pt;
