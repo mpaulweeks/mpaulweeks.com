@@ -2,10 +2,10 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": true,
+    "wip": false,
     "hidden": false,
     "url": "https://github.com/mpaulweeks/changepurse",
-    "image": "https://mpaulweeks.github.io/changepurse/favicon.png",
+    "image": "https://mpaulweeks.github.io/changepurse/img/favicon.png",
     "name": "Change Purse",
     "description": "static site for checking crypto",
     "date_pretty": "January 2018",
