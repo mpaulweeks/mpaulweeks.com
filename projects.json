@@ -1,5 +1,17 @@
 [
   {
+    "category": "art",
+    "scale": "small",
+    "wip": false,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/tombstone",
+    "image": "https://mpaulweeks.github.io/tombstone/favicon.png",
+    "name": "Tombstone Generator",
+    "description": "write custom text on a tombstone",
+    "date_pretty": "February 2018",
+    "date": "201802"
+  },
+  {
     "category": "tool",
     "scale": "small",
     "wip": false,
