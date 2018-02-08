@@ -7,7 +7,7 @@
     "url": "https://mpaulweeks.github.io/socket-lobby",
     "image": "preview/github.svg",
     "name": "Socket Lobby",
-    "description": "generic websocket server for real-time multiplayer",
+    "description": "generic websocket server\nfor real-time multiplayer",
     "date_pretty": "February 2018",
     "date": "201802"
   },
