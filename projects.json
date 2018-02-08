@@ -1,5 +1,29 @@
 [
   {
+    "category": "tool",
+    "scale": "small",
+    "wip": true,
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/socket-lobby",
+    "image": "preview/github.svg",
+    "name": "Socket Lobby",
+    "description": "generic websocket server for real-time multiplayer",
+    "date_pretty": "February 2018",
+    "date": "201802"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "wip": true,
+    "hidden": false,
+    "url": "http://double-biscuit.mpaulweeks.com",
+    "image": "http://double-biscuit.mpaulweeks.com/double_biscuit.png",
+    "name": "Double Biscuit",
+    "description": "tetris clone with live multiplayer",
+    "date_pretty": "February 2018",
+    "date": "201802"
+  },
+  {
     "category": "art",
     "scale": "small",
     "wip": false,
