@@ -56,6 +56,9 @@ a:hover {
     .link {
         flex-basis: 100%;
     }
+    .link a {
+      text-decoration: underline;
+    }
 }
 
 @keyframes ellipsis1 {
