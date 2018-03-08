@@ -4,6 +4,18 @@
     "scale": "small",
     "wip": true,
     "hidden": false,
+    "url": "https://autocard.mpaulweeks.com/example/",
+    "image": "https://autocard.mpaulweeks.com/favicon.png",
+    "name": "AutoCard",
+    "description": "development tool for\ndisplaying Magic cards",
+    "date_pretty": "March 2018",
+    "date": "201803"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "wip": true,
+    "hidden": false,
     "url": "https://mpaulweeks.github.io/socket-lobby",
     "image": "preview/github.svg",
     "name": "Socket Lobby",
