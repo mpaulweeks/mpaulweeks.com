@@ -62,7 +62,7 @@ function binByScale(projects){
   const scales = [
     {
       key: "large",
-      name: "Projects",
+      name: "Featured Projects",
     },
     {
       key: "wip",
@@ -70,7 +70,7 @@ function binByScale(projects){
     },
     {
       key: "small",
-      name: "Small Projects",
+      name: "Projects",
     },
   ];
   const categories = scales.map(scale => {
