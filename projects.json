@@ -14,9 +14,9 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": true,
+    "wip": false,
     "hidden": false,
-    "url": "https://mpaulweeks.github.io/socket-lobby",
+    "url": "https://github.com/mpaulweeks/socket-lobby",
     "image": "preview/github.svg",
     "name": "Socket Lobby",
     "description": "generic websocket server\nfor real-time multiplayer",
@@ -79,7 +79,7 @@
     "url": "http://vibe.mpaulweeks.com/gravity",
     "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
     "name": "GRAVITY",
-    "description": "interactive spin-off of VIBE",
+    "description": "semi-interactive spin-off of VIBE",
     "date_pretty": "September 2017",
     "date": "201709-03"
   },
