@@ -72,18 +72,6 @@
     "date": "201711"
   },
   {
-    "category": "art",
-    "scale": "small",
-    "wip": false,
-    "hidden": false,
-    "url": "http://vibe.mpaulweeks.com/gravity",
-    "image": "http://vibe.mpaulweeks.com/gravity/preview.png",
-    "name": "GRAVITY",
-    "description": "semi-interactive spin-off of VIBE",
-    "date_pretty": "September 2017",
-    "date": "201709-03"
-  },
-  {
     "category": "tool",
     "scale": "small",
     "wip": false,
@@ -101,11 +89,11 @@
     "wip": false,
     "hidden": false,
     "url": "http://vibe.mpaulweeks.com",
-    "image": "http://vibe.mpaulweeks.com/preview.png",
+    "image": "http://vibe.mpaulweeks.com/favicon.png",
     "name": "VIBE",
     "description": "customizable rainbow visualizer",
-    "date_pretty": "September 2017",
-    "date": "201709-01"
+    "date_pretty": "September 2017 - April 2018",
+    "date": "201804"
   },
   {
     "category": "tool",
