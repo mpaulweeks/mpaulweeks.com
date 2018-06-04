@@ -118,13 +118,20 @@ a:hover {
     animation-name: ellipsis3;
 }
 
+.project-category-container {
+  margin: 20px 0px;
+  border-top: 1px solid lightgrey;
+}
+.project-category-container:first-child {
+  border-top: none;
+}
 .project-category-title {
     font-size: 18pt;
     font-weight: bold;
     text-transform: uppercase;
     margin: 15px auto;
 }
-.project-category {
+.project-category-content {
     display: flex;
     flex-wrap: wrap;
     /*margin-bottom: 20px;*/

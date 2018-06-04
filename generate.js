@@ -23,11 +23,11 @@ function projectHTML(project){
 function projectCategoryHTML(category){
   const html = category.projects.reduce((a, c) => a + projectHTML(c), '');
   return `
-    <div>
+    <div class="project-category-container">
       <div class="project-category-title">
         ${category.label}
       </div>
-      <div class="project-category">
+      <div class="project-category-content">
         ${html}
       </div>
     </div>
@@ -44,7 +44,8 @@ function binByCategories(projects){
     const category = p.wip ? "wip" : p.category;
     cMap[category] = (cMap[category] || []).concat(p);
   });
-  const categories = Object.keys(cMap).map(cKey => {
+  const categoryNames = Object.keys(cMap).sort();
+  const categories = categoryNames.map(cKey => {
     return {
       label: cKey,
       projects: cMap[cKey],
@@ -65,12 +66,12 @@ function binByScale(projects){
       name: "Featured Projects",
     },
     {
-      key: "wip",
-      name: "Work in Progress",
-    },
-    {
       key: "small",
       name: "Projects",
+    },
+    {
+      key: "wip",
+      name: "Work in Progress",
     },
   ];
   const categories = scales.map(scale => {
@@ -99,8 +100,10 @@ function siftSortProjects(projectData){
 function displayProjects(projectData){
   const projects = siftSortProjects(projectData);
 
-  // const categories = binByCategories(projects);
-  const categories = binByScale(projects);
+  let categories = binByScale(projects);
+  if (window.location.search.includes("category")){
+    categories = binByCategories(projects);
+  }
 
   const elm = document.getElementById('projects');
   elm.innerHTML = '';
