@@ -2,65 +2,65 @@ html {
     font-size: 20px;
 }
 body {
-    background-color: #ffffff;
-    color: #000000;
-    font-family: "Cambria", Helvetica, Arial, sans-serif;
-    height: 100%;
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Cambria", Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
 }
 body,
 div {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .photo {
-    border: 3px solid #fafafa;
-    margin: 20px;
-    width: 200px;
+  border: 3px solid #fafafa;
+  margin: 20px;
+  width: 200px;
 }
 
 .title {
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .link-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    max-width: 600px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  max-width: 600px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
 }
 .link {
-    width: 80px;
-    margin: 0px auto;
+  width: 80px;
+  margin: 0px auto;
 }
 @media (max-width: 600px) {
-    .link-container {
-        padding-bottom: 0px;
-        border-bottom: none;
-    }
+  .link-container {
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
 }
 @media (max-width: 400px) {
-    .link {
-        flex-basis: 100%;
-    }
-    .link a {
-      text-decoration: underline;
-    }
+  .link {
+    flex-basis: 100%;
+  }
+  .link a {
+    text-decoration: underline;
+  }
 }
 
 @keyframes ellipsis1 {
@@ -103,21 +103,21 @@ a:hover {
   }
 }
 .loading {
-    opacity: 0;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+  opacity: 0;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 .loading1 {
-    animation-name: ellipsis1;
+  animation-name: ellipsis1;
 }
 .loading2 {
-    animation-name: ellipsis2;
+  animation-name: ellipsis2;
 }
 .loading3 {
-    animation-name: ellipsis3;
+  animation-name: ellipsis3;
 }
 
 .project-category-container {
@@ -128,48 +128,47 @@ a:hover {
   border-top: none;
 }
 .project-category-title {
-    font-size: 18pt;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 15px auto;
+  font-size: 18pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px auto;
 }
 .project-category-content {
-    display: flex;
-    flex-wrap: wrap;
-    /*margin-bottom: 20px;*/
+  display: flex;
+  flex-wrap: wrap;
 }
 .project-container {
-    width: 260px;
-    margin: 10px auto;
+  width: 260px;
+  margin: 10px auto;
 }
 .project-container a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 .project-preview {
-    max-width: 100%;
-    height: 100px;
-    margin: 5px auto;
+  max-width: 100%;
+  height: 100px;
+  margin: 5px auto;
 }
 .project-name {
-    font-size: 16pt;
-    margin: 5px auto;
+  font-size: 16pt;
+  margin: 5px auto;
 }
 .project-name:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .project-description {
-    font-size: 12pt;
-    font-weight: normal;
+  font-size: 12pt;
+  font-weight: normal;
 }
 .project-description a {
-    color: blue;
-    text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 .project-date {
-    font-size: 12pt;
-    font-weight: normal;
-    color: #888;
+  font-size: 12pt;
+  font-weight: normal;
+  color: #888;
 }
 
 #footer a {
