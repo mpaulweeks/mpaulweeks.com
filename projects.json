@@ -2,7 +2,7 @@
   {
     "category": "art",
     "scale": "small",
-    "status": "complete",
+    "status": "wip",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/chordial",
     "image": "https://mpaulweeks.github.io/chordial/favicon.png",
@@ -26,7 +26,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "status": "complete",
+    "status": "wip",
     "hidden": false,
     "url": "https://github.com/mpaulweeks/socket-lobby",
     "image": "preview/github.svg",
@@ -38,7 +38,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": true,
+    "status": "wip",
     "hidden": false,
     "url": "https://double-biscuit.mpaulweeks.com",
     "image": "https://double-biscuit.mpaulweeks.com/double_biscuit.png",
