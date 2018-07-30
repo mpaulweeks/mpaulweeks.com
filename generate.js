@@ -38,11 +38,15 @@ function getTimestamp(){
   return Math.floor((new Date()).getTime() / (60 * 1000));
 }
 
+const priorityBins = ["wip", "defunct"];
+
 function binByCategories(projects){
   const cMap = {};
   projects.forEach(p => {
-    const category = p.wip ? "wip" : p.category;
-    cMap[category] = (cMap[category] || []).concat(p);
+    if (!priorityBins.includes(p.status)){
+      const category = p.category;
+      cMap[category] = (cMap[category] || []).concat(p);
+    }
   });
   const categoryNames = Object.keys(cMap).sort();
   const categories = categoryNames.map(cKey => {
@@ -57,7 +61,7 @@ function binByCategories(projects){
 function binByScale(projects){
   const cMap = {};
   projects.forEach(p => {
-    const scale = p.wip ? "wip" : p.scale;
+    const scale = priorityBins.includes(p.status) ? p.status : p.scale;
     cMap[scale] = (cMap[scale] || []).concat(p);
   });
   const scales = [
@@ -72,6 +76,10 @@ function binByScale(projects){
     {
       key: "wip",
       name: "Work in Progress",
+    },
+    {
+      key: "defunct",
+      name: "No Longer Maintained",
     },
   ];
   const categories = scales.map(scale => {
@@ -98,17 +106,22 @@ function siftSortProjects(projectData){
 }
 
 function displayProjects(projectData){
+  const footer = document.getElementById('footer');
   const projects = siftSortProjects(projectData);
 
   let categories = binByScale(projects);
   if (window.location.search.includes("category")){
     categories = binByCategories(projects);
+    footer.innerHTML = `<a href="?">Back to Default View</a>`;
   }
 
   const elm = document.getElementById('projects');
   elm.innerHTML = '';
   categories.forEach(category => {
-    elm.innerHTML += projectCategoryHTML(category);
+    if (category.projects.length > 0){
+      elm.innerHTML += projectCategoryHTML(category);
+    }
   });
 }
 fetch(`projects.json?v=${getTimestamp()}`).then(r => r.json()).then(displayProjects);
+

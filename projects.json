@@ -2,7 +2,7 @@
   {
     "category": "art",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/chordial",
     "image": "https://mpaulweeks.github.io/chordial/favicon.png",
@@ -14,7 +14,7 @@
   {
     "category": "tool",
     "scale": "large",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mtgify.org/",
     "image": "https://mtgify.org/docs/favicon.png",
@@ -26,7 +26,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://github.com/mpaulweeks/socket-lobby",
     "image": "preview/github.svg",
@@ -50,7 +50,7 @@
   {
     "category": "art",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/tombstone",
     "image": "https://mpaulweeks.github.io/tombstone/favicon.png",
@@ -62,7 +62,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/changepurse",
     "image": "https://mpaulweeks.github.io/changepurse/img/favicon.png",
@@ -74,7 +74,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://8bit.mpaulweeks.com",
     "image": "https://8bit.mpaulweeks.com/favicon.png",
@@ -86,19 +86,19 @@
   {
     "category": "art",
     "scale": "large",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://vibe.mpaulweeks.com",
     "image": "https://vibe.mpaulweeks.com/favicon.png",
     "name": "VIBE",
     "description": "customizable rainbow visualizer",
-    "date_pretty": "September 2017 - April 2018",
-    "date": "201804"
+    "date_pretty": "September 2017 - ongoing",
+    "date": "20XX"
   },
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://github.com/mpaulweeks/postboard",
     "image": "preview/github.svg",
@@ -110,7 +110,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://edh-obscurity.mpaulweeks.com",
     "image": "https://edh-obscurity.mpaulweeks.com/edh.png",
@@ -122,7 +122,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mtg-quiz.mpaulweeks.com",
     "image": "https://mtg-quiz.mpaulweeks.com/symbol/X.svg",
@@ -134,7 +134,7 @@
   {
     "category": "art",
     "scale": "large",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://animefight.club",
     "image": "https://animefight.club/image/mako.png",
@@ -146,7 +146,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/rainbowify",
     "image": "https://mpaulweeks.github.io/rainbowify/clay_rainbow.gif",
@@ -158,7 +158,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/tribox/",
     "image": "preview/tribox.png",
@@ -170,7 +170,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/sushi-go/",
     "image": "preview/sushigo.png",
@@ -182,7 +182,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": true,
     "url": "https://cat-herder.mpaulweeks.com",
     "image": "https://cat-herder.mpaulweeks.com/static/favicon.png",
@@ -194,7 +194,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/tic-tac-toe-teacher/",
     "image": "preview/tictactoeteacher.png",
@@ -206,7 +206,7 @@
   {
     "category": "tool",
     "scale": "small",
-    "wip": false,
+    "status": "defunct",
     "hidden": false,
     "url": "https://video.fgc.mpaulweeks.com",
     "image": "https://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
@@ -218,7 +218,7 @@
   {
     "category": "tool",
     "scale": "large",
-    "wip": false,
+    "status": "defunct",
     "hidden": false,
     "url": "https://sfv.fgc.mpaulweeks.com",
     "image": "https://sfv.fgc.mpaulweeks.com/static/img/logo_big.png",
@@ -230,7 +230,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/twentytwo",
     "image": "preview/twentytwo.png",
@@ -242,7 +242,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://polman.mpaulweeks.com",
     "image": "https://polman.mpaulweeks.com/img/pol_left.png",
@@ -254,7 +254,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/achi",
     "image": "preview/achi.png",
@@ -266,7 +266,7 @@
   {
     "category": "art",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://rero.mpaulweeks.com",
     "image": "https://rero.mpaulweeks.com/cherry.png",
@@ -278,7 +278,7 @@
   {
     "category": "art",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://catoi.mpaulweeks.com",
     "image": "https://catoi.mpaulweeks.com/favicon.png",
@@ -290,7 +290,7 @@
   {
     "category": "art",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://catsuki.mpaulweeks.com",
     "image": "https://catsuki.mpaulweeks.com/favicon.png",
@@ -302,7 +302,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/TicTacToeTwist",
     "image": "preview/tictactoetwist.png",
@@ -314,7 +314,7 @@
   {
     "category": "game",
     "scale": "small",
-    "wip": false,
+    "status": "complete",
     "hidden": false,
     "url": "https://mpaulweeks.github.io/lifesim",
     "image": "preview/lifesim2.png",

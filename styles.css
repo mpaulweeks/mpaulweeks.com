@@ -1,8 +1,10 @@
+html {
+    font-size: 20px;
+}
 body {
     background-color: #ffffff;
     color: #000000;
     font-family: "Cambria", Helvetica, Arial, sans-serif;
-    font-size: 20px;
     height: 100%;
     width: 100%;
     max-width: 800px;
@@ -168,4 +170,10 @@ a:hover {
     font-size: 12pt;
     font-weight: normal;
     color: #888;
+}
+
+#footer a {
+  color: blue;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
 }
