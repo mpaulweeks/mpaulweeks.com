@@ -4,6 +4,18 @@
     "scale": "small",
     "status": "complete",
     "hidden": false,
+    "url": "https://mpaulweeks.github.io/set-sim",
+    "image": "https://mpaulweeks.github.io/set-sim/favicon.png",
+    "name": "SetSim",
+    "description": "running simulations of <a href='https://en.wikipedia.org/wiki/Set_(card_game)'>Set</a>",
+    "date_pretty": "November 2018",
+    "date": "201811"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
     "url": "https://mpaul.info/about",
     "image": "https://s3.amazonaws.com/mpaulweeks-redirect/fe/favicon.png",
     "name": "redirect",
