@@ -92,7 +92,8 @@ function binByScale(projects){
 }
 
 function siftSortProjects(projectData){
-  const sifted = projectData.reduce((lst, curr) => curr.hidden ? lst : lst.concat(curr), []);
+  const isDebug = window.location.search.includes('debug');
+  const sifted = projectData.filter(lst => isDebug || !lst.hidden);
   const sorted = sifted.sort((a, b) => {
     if (a.date < b.date) {
       return -1;
@@ -110,7 +111,7 @@ function displayProjects(projectData){
   const projects = siftSortProjects(projectData);
 
   let categories = binByScale(projects);
-  if (window.location.search.includes("category")){
+  if (window.location.search.includes('category')){
     categories = binByCategories(projects);
     footer.innerHTML = `<a href="?">Back to Default View</a>`;
   }

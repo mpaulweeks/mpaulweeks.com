@@ -1,5 +1,29 @@
 [
   {
+    "category": "art",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
+    "url": "https://cubism.mpaulweeks.com",
+    "image": "https://cubism.mpaulweeks.com/preview.gif",
+    "name": "cubism",
+    "description": "visualizer using <a href='https://threejs.org/'>three.js</a>",
+    "date_pretty": "January 2019",
+    "date": "201901"
+  },
+  {
+    "category": "art",
+    "scale": "small",
+    "status": "complete",
+    "hidden": true,
+    "url": "https://frame-it.mpaulweeks.com",
+    "image": "https://frame-it.mpaulweeks.com/preview.gif",
+    "name": "frame-it",
+    "description": "wrap images in a regal frame",
+    "date_pretty": "January 2019",
+    "date": "201901"
+  },
+  {
     "category": "tool",
     "scale": "small",
     "status": "complete",
