@@ -28,6 +28,18 @@
     "scale": "small",
     "status": "complete",
     "hidden": false,
+    "url": "https://nypl-tompkins-graphic.github.io",
+    "image": "https://nypl-tompkins-graphic.github.io/favicon.png",
+    "name": "NYPL Book Club",
+    "description": "info page for local book club",
+    "date_pretty": "January 2019",
+    "date": "201901"
+  },
+  {
+    "category": "tool",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
     "url": "https://mpaulweeks.github.io/set-sim",
     "image": "https://mpaulweeks.github.io/set-sim/favicon.png",
     "name": "SetSim",
