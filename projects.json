@@ -4,6 +4,18 @@
     "scale": "small",
     "status": "complete",
     "hidden": false,
+    "url": "https://floss.mpaulweeks.com",
+    "image": "https://floss.mpaulweeks.com/preview.gif",
+    "name": "floss",
+    "description": "silly art collab",
+    "date_pretty": "February 2019",
+    "date": "201902"
+  },
+  {
+    "category": "art",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
     "url": "https://cubism.mpaulweeks.com",
     "image": "https://cubism.mpaulweeks.com/preview.gif",
     "name": "cubism",
