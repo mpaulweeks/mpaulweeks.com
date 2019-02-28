@@ -93,7 +93,11 @@ function binByScale(projects){
 
 function siftSortProjects(projectData){
   const isDebug = window.location.search.includes('debug');
-  const sifted = projectData.filter(lst => isDebug || !lst.hidden);
+  let sifted = projectData.filter(lst => isDebug || !lst.hidden);
+  if (window.location.pathname.includes('/2019')){
+    // todo explicitly mark as 2019 project
+    sifted = sifted.filter(lst => lst.date.match(/^2019\d+/));
+  }
   const sorted = sifted.sort((a, b) => {
     if (a.date < b.date) {
       return -1;
