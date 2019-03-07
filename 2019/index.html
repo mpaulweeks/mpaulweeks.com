@@ -3,9 +3,9 @@
   <title>2019 | M. Paul Weeks</title>
   <link rel="shortcut icon" href="../clay.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="stylesheet" type="text/css" href="../styles.css?v=20180729" />
-  <script src="../generate.js?v=20180729" defer></script>
+  <script src="../generate.js?v=20180729"></script>
 </head>
 <body>
   <div class="photo-container">
@@ -21,7 +21,7 @@
   <div class="title">
     2019
   </div>
-  
+
   <div id="projects">
     loading projects
     <span class="loading loading1">.</span>
@@ -30,6 +30,10 @@
     <!-- filled via js -->
   </div>
 
+  <script type="text/javascript">
+    const filterFunc = data => !!data.is2019;
+    fetchProjects('../projects.json', filterFunc);
+  </script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-37989728-1']);

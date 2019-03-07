@@ -8,6 +8,7 @@
     "image": "https://floss.mpaulweeks.com/preview.gif",
     "name": "floss",
     "description": "silly art collab",
+    "is2019": true,
     "date_pretty": "February 2019",
     "date": "201902"
   },
@@ -20,6 +21,7 @@
     "image": "https://cubism.mpaulweeks.com/preview.gif",
     "name": "cubism",
     "description": "visualizer using <a href='https://threejs.org/'>three.js</a>",
+    "is2019": true,
     "date_pretty": "January 2019",
     "date": "201901"
   },

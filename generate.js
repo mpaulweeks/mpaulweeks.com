@@ -91,12 +91,11 @@ function binByScale(projects){
   return categories;
 }
 
-function siftSortProjects(projectData){
+function siftSortProjects(projectData, filterFunc){
   const isDebug = window.location.search.includes('debug');
-  let sifted = projectData.filter(lst => isDebug || !lst.hidden);
-  if (window.location.pathname.includes('/2019')){
-    // todo explicitly mark as 2019 project
-    sifted = sifted.filter(lst => lst.date.match(/^2019\d+/));
+  let sifted = projectData.filter(proj => isDebug || !proj.hidden);
+  if (filterFunc){
+    sifted = sifted.filter(proj => filterFunc(proj));
   }
   const sorted = sifted.sort((a, b) => {
     if (a.date < b.date) {
@@ -110,9 +109,9 @@ function siftSortProjects(projectData){
   return sorted;
 }
 
-function displayProjects(projectData){
+function displayProjects(projectData, filterFunc){
   const footer = document.getElementById('footer');
-  const projects = siftSortProjects(projectData);
+  const projects = siftSortProjects(projectData, filterFunc);
 
   let categories = binByScale(projects);
   if (window.location.search.includes('category')){
@@ -128,5 +127,10 @@ function displayProjects(projectData){
     }
   });
 }
-fetch(`projects.json?v=${getTimestamp()}`).then(r => r.json()).then(displayProjects);
+
+function fetchProjects(localPath, filterFunc){
+  return fetch(`${localPath}?v=${getTimestamp()}`)
+    .then(r => r.json())
+    .then(data => displayProjects(data, filterFunc));
+}
 
