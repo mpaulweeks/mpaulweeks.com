@@ -1,26 +1,7 @@
 
-function projectHTML(project){
-  return `
-    <div class="project-container">
-      <a href="${project.url}">
-        <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
-      </a>
-      <a href="${project.url}">
-        <div class="project-name">
-          ${project.name}
-        </div>
-      </a>
-      <div class="project-description">
-        ${project.description.replace('\n', '<br/>')}
-      </div>
-      <div class="project-date">
-        ${project.date_pretty}
-      </div>
-    </div>
-  `;
-}
+// templates
 
-const monthlyProjectHTML = (project) => `
+const projectHTML = (project) => `
   <div class="project-container">
     <a href="${project.url}">
       <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
@@ -30,8 +11,41 @@ const monthlyProjectHTML = (project) => `
         ${project.name}
       </div>
     </a>
+    <div class="project-description">
+      ${project.description.replace('\n', '<br/>')}
+    </div>
     <div class="project-date">
+      ${project.date_pretty}
+    </div>
+  </div>
+`;
+
+const monthlyProjectHTML = (project) => `
+  <div class="project-container">
+    <div class="project-category-title">
       ${project.date_pretty.split(' ')[0]}
+    </div>
+    <a href="${project.url}">
+      <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
+    </a>
+    <a href="${project.url}">
+      <div class="project-name">
+        ${project.name}
+      </div>
+    </a>
+    <div class="project-description">
+      ${project.description.replace('\n', '<br/>')}
+    </div>
+  </div>
+`;
+
+const projectCategoryHTML = (category) => `
+  <div class="project-category-container">
+    <div class="project-category-title">
+      ${category.label}
+    </div>
+    <div class="project-category-content">
+      ${category.projects.map(projectHTML).join('')}
     </div>
   </div>
 `;
@@ -44,19 +58,7 @@ const monthlyChallengeHTML = (projects) => `
   </div>
 `;
 
-function projectCategoryHTML(category){
-  const html = category.projects.reduce((a, c) => a + projectHTML(c), '');
-  return `
-    <div class="project-category-container">
-      <div class="project-category-title">
-        ${category.label}
-      </div>
-      <div class="project-category-content">
-        ${html}
-      </div>
-    </div>
-  `;
-}
+// sorting logic
 
 function getTimestamp(){
   return Math.floor((new Date()).getTime() / (60 * 1000));
@@ -154,6 +156,8 @@ function displayProjects(projectData, filterFunc){
     });
   }
 }
+
+// init
 
 function fetchProjects(localPath, filterFunc){
   return fetch(`${localPath}?v=${getTimestamp()}`)
