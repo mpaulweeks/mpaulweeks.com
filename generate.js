@@ -20,7 +20,7 @@ function projectHTML(project){
   `;
 }
 
-const monthlyHTML = (project) => `
+const monthlyProjectHTML = (project) => `
   <div class="project-container">
     <a href="${project.url}">
       <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
@@ -32,6 +32,14 @@ const monthlyHTML = (project) => `
     </a>
     <div class="project-date">
       ${project.date_pretty.split(' ')[0]}
+    </div>
+  </div>
+`;
+
+const monthlyChallengeHTML = (projects) => ` 
+  <div class="project-category-container">
+    <div class="project-category-content">
+      ${projects.map(monthlyProjectHTML).join('')}
     </div>
   </div>
 `;
@@ -132,9 +140,7 @@ function displayProjects(projectData, filterFunc){
   const elm = document.getElementById('projects');
   elm.innerHTML = '';
   if (window.location.pathname.includes('2019')){
-    projects.reverse().forEach(p => {
-      elm.innerHTML += monthlyHTML(p);
-    });
+    elm.innerHTML += monthlyChallengeHTML(projects.reverse());
   } else {
     let categories = binByScale(projects);
     if (window.location.search.includes('category')){
