@@ -20,6 +20,22 @@ function projectHTML(project){
   `;
 }
 
+const monthlyHTML = (project) => `
+  <div class="project-container">
+    <a href="${project.url}">
+      <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
+    </a>
+    <a href="${project.url}">
+      <div class="project-name">
+        ${project.name}
+      </div>
+    </a>
+    <div class="project-date">
+      ${project.date_pretty.split(' ')[0]}
+    </div>
+  </div>
+`;
+
 function projectCategoryHTML(category){
   const html = category.projects.reduce((a, c) => a + projectHTML(c), '');
   return `
@@ -113,19 +129,24 @@ function displayProjects(projectData, filterFunc){
   const footer = document.getElementById('footer');
   const projects = siftSortProjects(projectData, filterFunc);
 
-  let categories = binByScale(projects);
-  if (window.location.search.includes('category')){
-    categories = binByCategories(projects);
-    footer.innerHTML = `<a href="?">Back to Default View</a>`;
-  }
-
   const elm = document.getElementById('projects');
   elm.innerHTML = '';
-  categories.forEach(category => {
-    if (category.projects.length > 0){
-      elm.innerHTML += projectCategoryHTML(category);
+  if (window.location.pathname.includes('2019')){
+    projects.reverse().forEach(p => {
+      elm.innerHTML += monthlyHTML(p);
+    });
+  } else {
+    let categories = binByScale(projects);
+    if (window.location.search.includes('category')){
+      categories = binByCategories(projects);
+      footer.innerHTML = `<a href="?">Back to Default View</a>`;
     }
-  });
+    categories.forEach(category => {
+      if (category.projects.length > 0){
+        elm.innerHTML += projectCategoryHTML(category);
+      }
+    });
+  }
 }
 
 function fetchProjects(localPath, filterFunc){
