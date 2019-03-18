@@ -41,7 +41,7 @@
     "category": "tool",
     "scale": "small",
     "status": "complete",
-    "hidden": false,
+    "hidden": true,
     "url": "https://nypl-tompkins-graphic.github.io",
     "image": "https://nypl-tompkins-graphic.github.io/favicon.png",
     "name": "NYPL Book Club",
