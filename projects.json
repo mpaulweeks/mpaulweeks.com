@@ -1,5 +1,18 @@
 [
   {
+    "category": "game",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/how-games-work",
+    "image": "https://mpaulweeks.github.io/how-games-work/favicon.gif",
+    "name": "How Games Work",
+    "description": "visualing a game loop",
+    "is2019": true,
+    "date_pretty": "March 2019",
+    "date": "201903"
+  },
+  {
     "category": "art",
     "scale": "small",
     "status": "complete",
