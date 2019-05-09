@@ -44,13 +44,13 @@ const projectCategoryHTML = (category) => `
     <div class="project-category-title">
       ${category.label}
     </div>
-    <div class="project-category-content">
+    <div class="project-category-content ${category.class}">
       ${category.projects.map(projectHTML).join('')}
     </div>
   </div>
 `;
 
-const monthlyChallengeHTML = (projects) => ` 
+const monthlyChallengeHTML = (projects) => `
   <div class="project-category-container">
     <div class="project-category-content">
       ${projects.map(monthlyProjectHTML).join('')}
@@ -94,6 +94,7 @@ function binByScale(projects){
     {
       key: "large",
       name: "Featured Projects",
+      class: "two", // todo temporary fix for awkward number of featured projects
     },
     {
       key: "small",
@@ -110,6 +111,7 @@ function binByScale(projects){
   ];
   const categories = scales.map(scale => {
     return {
+      class: scale.class || '',
       label: scale.name,
       projects: cMap[scale.key] || [],
     }

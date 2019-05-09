@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+  font-size: 20px;
 }
 body {
   background-color: #ffffff;
@@ -25,27 +25,27 @@ a:hover {
 
 .photo {
   border: 3px solid #fafafa;
-  margin: 20px;
+  margin: 1rem;
   width: 200px;
 }
 
 .title {
   text-align: center;
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .link-container {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   max-width: 600px;
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
   border-bottom: 2px solid black;
 }
 .link {
-  width: 80px;
+  width: 4rem;
   margin: 0px auto;
 }
 @media (max-width: 600px) {
@@ -121,17 +121,17 @@ a:hover {
 }
 
 .project-category-container {
-  margin: 20px 0px;
+  margin: 1rem 0px;
   border-top: 1px solid lightgrey;
 }
 .project-category-container:first-child {
   border-top: none;
 }
 .project-category-title {
-  font-size: 18pt;
+  font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 15px auto;
+  margin: 0.75rem auto;
 }
 .project-category-content {
   display: flex;
@@ -139,7 +139,10 @@ a:hover {
 }
 .project-container {
   width: 260px;
-  margin: 10px auto;
+  margin: 0.5rem auto;
+}
+.project-category-content.two {
+  width: 67%;
 }
 .project-container a {
   color: inherit;
@@ -151,14 +154,14 @@ a:hover {
   margin: 5px auto;
 }
 .project-name {
-  font-size: 16pt;
+  font-size: 1rem;
   margin: 5px auto;
 }
 .project-name:hover {
   text-decoration: underline;
 }
 .project-description {
-  font-size: 12pt;
+  font-size: 0.8rem;
   font-weight: normal;
 }
 .project-description a {
@@ -166,7 +169,7 @@ a:hover {
   text-decoration: underline;
 }
 .project-date {
-  font-size: 12pt;
+  font-size: 0.8rem;
   font-weight: normal;
   color: #888;
 }
@@ -175,4 +178,11 @@ a:hover {
   color: blue;
   font-size: 0.8rem;
   padding-bottom: 30px;
+}
+
+.description {
+  font-size: 0.8rem;
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
 }
