@@ -35,6 +35,9 @@ a:hover {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.title.small {
+  font-size: 2rem;
+}
 
 .link-container {
   display: flex;
@@ -48,15 +51,17 @@ a:hover {
   width: 4rem;
   margin: 0px auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
+  .title {
+    font-size: 2.5rem;
+  }
   .link-container {
     padding-bottom: 0px;
     border-bottom: none;
   }
-}
-@media (max-width: 400px) {
   .link {
-    flex-basis: 100%;
+    flex-basis: 50%;
+    margin-bottom: 0.5em;
   }
   .link a {
     text-decoration: underline;
