@@ -24,9 +24,10 @@ a:hover {
 }
 
 .photo {
-  border: 3px solid #fafafa;
+  border: 3px solid #000000;
+  border-radius: 50%;
   margin: 1rem;
-  width: 200px;
+  width: 250px;
 }
 
 .title {
