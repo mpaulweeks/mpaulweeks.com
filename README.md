@@ -8,7 +8,6 @@ www.mpaulweeks.com
 hidden:
 - cat-herder
 - commander league
-- nypl book club
 
 excluded:
 - type4
