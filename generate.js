@@ -98,7 +98,7 @@ function binByScale(projects){
     },
     {
       key: "small",
-      name: "Projects",
+      name: "All Projects",
     },
     {
       key: "wip",
