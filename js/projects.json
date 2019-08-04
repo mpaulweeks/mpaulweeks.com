@@ -225,7 +225,7 @@
     "status": "complete",
     "hidden": false,
     "url": "https://mtg-quiz.mpaulweeks.com",
-    "image": "https://mtg-quiz.mpaulweeks.com/symbol/X.svg",
+    "image": "https://mtg-quiz.mpaulweeks.com/favicon.png",
     "name": "MTG Quiz",
     "description": "Magic: the Gathering quiz site\n(written in React)",
     "date_pretty": "April 2017",
