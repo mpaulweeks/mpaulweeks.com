@@ -94,7 +94,6 @@ function binByScale(projects){
     {
       key: "large",
       name: "Featured Projects",
-      class: "two", // todo temporary fix for awkward number of featured projects
     },
     {
       key: "small",
