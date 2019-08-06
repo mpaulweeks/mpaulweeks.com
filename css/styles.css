@@ -141,11 +141,13 @@ a:hover {
 }
 .project-category-content {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .project-container {
   width: 260px;
-  margin: 0.5rem auto;
+  margin: 0.5rem 0rem;
 }
 .project-category-content.two {
   width: 67%;
