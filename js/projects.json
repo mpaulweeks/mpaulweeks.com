@@ -1,6 +1,19 @@
 [
   {
     "category": "game",
+    "scale": "large",
+    "status": "complete",
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/ice-puzzle",
+    "image": "https://mpaulweeks.github.io/ice-puzzle/sprite/igloo.png",
+    "name": "Ice Puzzle",
+    "description": "puzzle game",
+    "is2019": true,
+    "date_pretty": "August 2019",
+    "date": "201908"
+  },
+  {
+    "category": "game",
     "scale": "small",
     "status": "complete",
     "hidden": false,
