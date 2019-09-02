@@ -101,6 +101,18 @@
     "date": "201811"
   },
   {
+    "category": "game",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/musicboy",
+    "image": "https://mpaulweeks.github.io/musicboy/favicon.png",
+    "name": "musicboy",
+    "description": "unfinished physics-based puzzle game with a musical twist",
+    "date_pretty": "October 2018",
+    "date": "201810"
+  },
+  {
     "category": "tool",
     "scale": "small",
     "status": "complete",
