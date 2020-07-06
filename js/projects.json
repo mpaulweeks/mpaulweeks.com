@@ -9,8 +9,21 @@
     "name": "Tough Love Arena",
     "description": "rollback netcode fighting game",
     "is2019": false,
-    "date_pretty": "October 2019 - present",
+    "date_pretty": "ongoing",
     "date": "201910"
+  },
+  {
+    "category": "game",
+    "scale": "small",
+    "status": "complete",
+    "hidden": false,
+    "url": "https://mpaulweeks.github.io/avalon",
+    "image": "https://mpaulweeks.github.io/avalon/favicon.png",
+    "name": "Avalon Sim",
+    "description": "fan implementation of <a href='https://boardgamegeek.com/boardgame/128882/resistance-avalon'>Avalon</a>",
+    "is2019": false,
+    "date_pretty": "May 2020",
+    "date": "202005"
   },
   {
     "category": "game",
