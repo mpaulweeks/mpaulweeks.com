@@ -5,8 +5,6 @@ const projectHTML = (project) => `
   <div class="project-container">
     <a href="${project.url}">
       <img class="project-preview" src="${project.image || 'preview/placeholder.png'}" />
-    </a>
-    <a href="${project.url}">
       <div class="project-name">
         ${project.name}
       </div>
