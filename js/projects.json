@@ -225,8 +225,8 @@
   {
     "category": "tool",
     "scale": "small",
-    "status": "complete",
-    "hidden": false,
+    "status": "defunct",
+    "hidden": true,
     "url": "https://8bit.mpaulweeks.com",
     "image": "https://8bit.mpaulweeks.com/favicon.png",
     "name": "Arcade Rank",
