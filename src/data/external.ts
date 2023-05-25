@@ -1,9 +1,9 @@
-export type ExternalLink = {
+export type ExternalLinkInfo = {
   label: string;
   url: string;
 }
 
-export const ExternalLinks: ExternalLink[] = [{
+export const ExternalLinks: ExternalLinkInfo[] = [{
   label: 'email',
   url: "mailto:mpaulweeks@gmail.com",
 }, {
