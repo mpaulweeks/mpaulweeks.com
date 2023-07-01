@@ -13,6 +13,17 @@ export type ProjectInfo = {
 }
 
 export const Projects: ProjectInfo[] = [{
+  "category": "tool",
+  "scale": "small",
+  "status": "complete",
+  "hidden": false,
+  "url": "https://mpaulweeks.github.io/planning-poker/",
+  "image": "https://mpaulweeks.github.io/planning-poker/ace.png",
+  "name": "Planning Poker",
+  "description": "tool for estimating",
+  "date_pretty": "October 2022",
+  "date": "202210"
+}, {
   "category": "game",
   "scale": "large",
   "status": "complete",
