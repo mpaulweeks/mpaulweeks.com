@@ -10,15 +10,21 @@ export const ExternalLinks: ExternalLinkInfo[] = [{
   label: 'twitter',
   url: "https://twitter.com/mpaulweeks",
 }, {
-  label: 'instagram',
-  url: "https://www.instagram.com/mpaulweeks/",
+  label: 'bluesky',
+  url: "https://bsky.app/profile/mpaulweeks.com",
+// }, {
+//   label: 'instagram',
+//   url: "https://www.instagram.com/mpaulweeks/",
+}, {
+  label: 'linkedin',
+  url: "https://www.linkedin.com/in/mpaulweeks/",
 }, {
   label: 'github',
   url: "https://github.com/mpaulweeks",
 }, {
   label: 'blog',
   url: "https://blog.mpaulweeks.com",
-}, {
-  label: 'patreon',
-  url: "https://patreon.com/mpaulweeks",
-}]
+// }, {
+//   label: 'patreon',
+//   url: "https://patreon.com/mpaulweeks",
+}];

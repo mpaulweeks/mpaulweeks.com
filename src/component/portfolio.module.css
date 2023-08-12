@@ -25,18 +25,14 @@
   margin-bottom: 0.3em;
 }
 
-.PortfolioLinkContainer {
+.PortfolioLinks {
   max-width: 600px;
   width: 100%;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 
   padding-bottom: 1em;
   border-bottom: 2px solid black;
-}
-.PortfolioLink {
-  text-align: center;
-  width: 4em;
 }

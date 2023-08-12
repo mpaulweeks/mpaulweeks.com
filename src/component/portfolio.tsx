@@ -2,6 +2,7 @@ import { Projects } from '@/data/projects'
 import { ProjectGroup } from '@/component/projectGroup'
 import styles from './portfolio.module.css'
 import { binProjectsByScale } from '@/data/utils';
+import { ExternalLinks } from '@/data/external';
 
 export function Portfolio() {
   const sorted = Projects
@@ -21,11 +22,12 @@ export function Portfolio() {
         m. paul weeks
       </section>
 
-      <section className={styles.PortfolioLinkContainer}>
-        <div className={styles.PortfolioLink}><a href="mailto:mpaulweeks@gmail.com">email</a></div>
-        <div className={styles.PortfolioLink}><a href="https://twitter.com/mpaulweeks">twitter</a></div>
-        <div className={styles.PortfolioLink}><a href="https://github.com/mpaulweeks">github</a></div>
-        <div className={styles.PortfolioLink}><a href="https://blog.mpaulweeks.com">blog</a></div>
+      <section className={styles.PortfolioLinks}>
+        {ExternalLinks.map(link => (
+          <div key={link.label}>
+            <a href={link.url}>{link.label}</a>
+          </div>
+        ))}
       </section>
 
       <section>
