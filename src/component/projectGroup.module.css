@@ -1,0 +1,18 @@
+.ProjectGroup {
+  text-align: center;
+}
+.ProjectGroupTitle {
+  text-transform: uppercase;
+  margin: 1em;
+}
+.ProjectGroupList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: white;
+  border-radius: 1em;
+}

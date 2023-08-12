@@ -1,0 +1,42 @@
+.Portfolio {
+  font-family: "Cambria", Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  box-sizing: border-box;
+
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.PortfolioLogo {
+  border: 2px solid #d0d0d0;
+  border-radius: 50%;
+  margin: 1em;
+  width: 250px;
+}
+
+.PortfolioTitle {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.PortfolioLinkContainer {
+  max-width: 600px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-bottom: 1em;
+  border-bottom: 2px solid black;
+}
+.PortfolioLink {
+  text-align: center;
+  width: 4em;
+}
