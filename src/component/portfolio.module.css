@@ -1,6 +1,7 @@
 .Portfolio {
   font-family: "Cambria", Helvetica, Arial, sans-serif;
   max-width: 800px;
+  box-sizing: border-box;
 
   font-size: 20px;
 
@@ -29,12 +30,13 @@
   width: 100%;
 
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
   padding-bottom: 1em;
   border-bottom: 2px solid black;
 }
 .PortfolioLink {
+  text-align: center;
   width: 4em;
-  margin: 0px auto;
 }

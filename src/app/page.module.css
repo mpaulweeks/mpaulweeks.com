@@ -1,11 +1,10 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 1em;
 }
 
 @keyframes rotate {
