@@ -1,4 +1,4 @@
-mpaulweeks
+mpaulweeks.com
 ==========
 
 Informational website about M. Paul Weeks
