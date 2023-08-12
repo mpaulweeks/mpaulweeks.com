@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <Script>
+      <Script id="gtag">
         {`
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-37989728-1']);
