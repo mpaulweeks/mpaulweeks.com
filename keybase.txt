@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mpaulweeks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.mpaulweeks.com
+  * I am mpaulweeks (https://keybase.io/mpaulweeks) on keybase.
+  * I have a public key ASDg-SHxldk03ANeZnDUv1nsRQubelST8uhMCnrbEB7TQAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e0f921f195d934dc035e6670d4bf59ec450b9b7a5493f2e84c0a7adb101ed3400a",
+      "host": "keybase.io",
+      "kid": "0120e0f921f195d934dc035e6670d4bf59ec450b9b7a5493f2e84c0a7adb101ed3400a",
+      "uid": "da37bc44c8e19226d100ea803665c419",
+      "username": "mpaulweeks"
+    },
+    "merkle_root": {
+      "ctime": 1514667565,
+      "hash": "c81db34703d130da381668b5f783144f88bf23313cb360095c00d3ab6c707b295d8d7d1b490353b0f49aa228f8640bbd98f0efa02d34ebe71b1b036df5194fec",
+      "hash_meta": "9ac4975bfa2d0152ab4b446c6ffb62a353d4a9a2cb4fe1c5f3f0f5c03888d515",
+      "seqno": 1870906
+    },
+    "service": {
+      "hostname": "www.mpaulweeks.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1514667592,
+  "expire_in": 504576000,
+  "prev": "9ed8a3137beeb79254a861a86934862f46442e4b8bae29f8e291263d9e3dd452",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4Pkh8ZXZNNwDXmZw1L9Z7EULm3pUk/LoTAp62xAe00AKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTBmOTIxZjE5NWQ5MzRkYzAzNWU2NjcwZDRiZjU5ZWM0NTBiOWI3YTU0OTNmMmU4NGMwYTdhZGIxMDFlZDM0MDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTBmOTIxZjE5NWQ5MzRkYzAzNWU2NjcwZDRiZjU5ZWM0NTBiOWI3YTU0OTNmMmU4NGMwYTdhZGIxMDFlZDM0MDBhIiwidWlkIjoiZGEzN2JjNDRjOGUxOTIyNmQxMDBlYTgwMzY2NWM0MTkiLCJ1c2VybmFtZSI6Im1wYXVsd2Vla3MifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTQ2Njc1NjUsImhhc2giOiJjODFkYjM0NzAzZDEzMGRhMzgxNjY4YjVmNzgzMTQ0Zjg4YmYyMzMxM2NiMzYwMDk1YzAwZDNhYjZjNzA3YjI5NWQ4ZDdkMWI0OTAzNTNiMGY0OWFhMjI4Zjg2NDBiYmQ5OGYwZWZhMDJkMzRlYmU3MWIxYjAzNmRmNTE5NGZlYyIsImhhc2hfbWV0YSI6IjlhYzQ5NzViZmEyZDAxNTJhYjRiNDQ2YzZmZmI2MmEzNTNkNGE5YTJjYjRmZTFjNWYzZjBmNWMwMzg4OGQ1MTUiLCJzZXFubyI6MTg3MDkwNn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cubXBhdWx3ZWVrcy5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM4In0sImN0aW1lIjoxNTE0NjY3NTkyLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjllZDhhMzEzN2JlZWI3OTI1NGE4NjFhODY5MzQ4NjJmNDY0NDJlNGI4YmFlMjlmOGUyOTEyNjNkOWUzZGQ0NTIiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBSTPqZpmEo5GP+KeX/5oh+yNybnKNlnl+53RZMYnoIbc18roDcTArk4ADDgi/V8r/q5sdTRfCIx2uRQWSuj0QPqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg5EmKk6twEbFbK3IJPlNglcGlG0gqNWGxhVXlQ6W93yajdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mpaulweeks
+
+==================================================================
