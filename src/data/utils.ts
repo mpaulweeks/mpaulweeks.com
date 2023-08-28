@@ -1,24 +1,29 @@
-import { ProjectInfo } from "./projects";
+import { ProjectInfo } from './projects';
 
 export type Category = {
   label: string;
   projects: ProjectInfo[];
-}
+};
 
-const priorityBins = ["wip", "defunct"];
-const scales = [{
-  key: "large",
-  name: "Featured Projects",
-}, {
-  key: "small",
-  name: "All Projects",
-}, {
-  key: "wip",
-  name: "Work in Progress",
-}, {
-  key: "defunct",
-  name: "No Longer Maintained",
-}];
+const priorityBins = ['wip', 'defunct'];
+const scales = [
+  {
+    key: 'large',
+    name: 'Featured Projects',
+  },
+  {
+    key: 'small',
+    name: 'All Projects',
+  },
+  {
+    key: 'wip',
+    name: 'Work in Progress',
+  },
+  {
+    key: 'defunct',
+    name: 'No Longer Maintained',
+  },
+];
 
 export function binProjectsByScale(projects: ProjectInfo[]): Category[] {
   const cMap: Record<string, ProjectInfo[]> = {};
