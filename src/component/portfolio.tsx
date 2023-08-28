@@ -16,6 +16,7 @@ export function Portfolio() {
         <img
           className={styles.PortfolioLogo}
           src="favicon.png"
+          alt=""
         />
       </section>
       <section className={styles.PortfolioTitle}>

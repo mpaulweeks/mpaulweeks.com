@@ -9,7 +9,7 @@ export function ProjectLink(props: {
   return (
     <div className={styles.ProjectLink}>
       <a href={info.url}>
-        <img className={styles.ProjectPreview} src={imgSrc} />
+        <img className={styles.ProjectPreview} src={imgSrc} alt="" />
         <div className={styles.ProjectName}>
           {info.name}
         </div>
