@@ -9,6 +9,11 @@
     "lint": "next lint",
     "pretty": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pretty && npm run lint"
+    }
+  },
   "dependencies": {
     "@types/node": "20.2.3",
     "@types/react": "18.2.7",
@@ -21,6 +26,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
     "prettier": "^3.0.2"
   }
 }
